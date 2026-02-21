@@ -1,0 +1,5 @@
+AddType application/octet-stream csv
+AuthName "Simpla CMS"
+AuthType Basic
+AuthUserFile /home/fj473748/goldrwsbank.com.ua/www/simpla/.passwd
+require valid-user

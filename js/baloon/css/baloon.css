@@ -1,0 +1,58 @@
+#baloon {
+	width: 187px;
+	top: 0px;
+	left: 0px;
+	padding: 0;
+	margin: 0;
+
+	display: none;
+	position: absolute;
+        z-index: 64999;
+
+    filter: Alpha(Opacity='75');
+	-moz-opacity: 0.75;
+	opacity: 0.8;
+}
+
+#baloonHeader {
+	width: 187px;
+	height: 9px;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	line-height: 0;
+	background-repeat: no-repeat;
+
+	display: block;
+}
+
+/*
+.baloonHeaderDirect {
+	background-image: url(../i/baloon-header.gif);
+}
+
+.baloonHeaderFlip {
+	background-image: url(../i/baloon-header-flip.gif);
+}
+*/
+
+#baloonFooter {
+	width: 187px;
+	height: 3px;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	line-height: 0;
+
+	display: block;
+}
+
+#baloonBody {
+	padding: 0.3rem 1rem;
+    background-color: #111827;
+    width: auto;
+    color: #fff;
+    margin: 0;
+    font-size: 15px;
+    line-height: 140%;
+}
